@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "ccpgp"
+version = "1.0.0"
+description = "Constitutionally Constrained Provenance-Gated Plasticity — a novel synaptic learning rule for ethically bounded adaptive systems"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.9"
+authors = [
+    {name = "LEAP A.I Industries Ltd."},
+]
+keywords = ["spiking-neural-network", "synaptic-plasticity", "STDP", "safety", "ethics", "provenance", "constitutional-AI"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+
+[project.urls]
+Repository = "https://github.com/leapai/ccpgp"
+
+[tool.setuptools.packages.find]
+include = ["ccpgp*"]
