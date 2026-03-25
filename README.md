@@ -246,7 +246,7 @@ If you use CCPGP in academic work, please cite:
   title     = {CCPGP: Constitutionally Constrained Provenance-Gated Plasticity},
   author    = {{LEAP A.I Industries Ltd.}},
   year      = {2026},
-  url       = {[https://github.com/leapai/ccpgp](https://github.com/The-Leading-Executives-Alliance-Project/CCPGP)},
+  url       = {https://github.com/The-Leading-Executives-Alliance-Project/CCPGP},
   license   = {Apache-2.0},
 }
 ```
